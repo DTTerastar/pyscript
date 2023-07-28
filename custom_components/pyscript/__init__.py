@@ -24,8 +24,8 @@ from homeassistant.const import (
 from homeassistant.core import Config, HomeAssistant, ServiceCall
 from homeassistant.exceptions import HomeAssistantError
 import homeassistant.helpers.config_validation as cv
-from homeassistant.helpers.event import Event as HAEvent
 from homeassistant.helpers.restore_state import DATA_RESTORE_STATE
+from homeassistant.helpers.typing import EventType as HAEvent
 from homeassistant.loader import bind_hass
 
 from .const import (
